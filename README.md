@@ -4,8 +4,10 @@ This file is intended to be used by anyone who needs to be able to list all holi
 
 ### Nice-to-knows
 Currently, only Sweden (SE) is completely implemented.
-country_holidays.py relies on date_utils.py to work.
 
+country_holidays.py essentially produces a class object 'Calendar' given a few parameters. The holidays are a pandas DataFrame with dates as the index and the English name of the corresponding holiday.
+
+country_holidays.py relies on date_utils.py to work.
 
 ### Prerequisites
 pandas
@@ -13,7 +15,7 @@ datetime
 date_utils.py (included in this repo)
 
 ### Contributing
-Contribution is most welcome and wanted! I want to collaborate and learn to code python properly, anything I can learn is of interest.
+Contribution is most welcome and wanted. I want to collaborate and learn to code python properly.
 
 Please contact [Alexander Nadjalin](https://github.com/AlexanderNadjalin) for the process of contributing. This is my first public repository and I'm unfamiliar with how contribution usually works.
 
