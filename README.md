@@ -14,6 +14,53 @@ pandas
 datetime
 date_utils.py (included in this repo)
 
+### Usage
+```python
+`import country_holidays as ch`
+`import datetime as dti
+
+start_year = dt.datetime(2017, 1, 1)
+end_year = dt.datetime(2018, 1, 1)
+sweden = ch.Calendar('SE', start_year, end_year)
+print(sweden.holidays)`
+```
+
+Results in a DataFrame:
+
+*Index* | holiday_name
+--- | ---
+2017-01-01 | new years day
+2017-01-06 | epiphany
+2017-04-14 | good friday
+2017-04-15 | easter saturday
+2017-04-17 | easter monday
+2017-05-01 | first may
+2017-05-25 | ascension thursday
+2017-06-04 | whitsun eve
+2017-06-05 | pentecost
+2017-06-06 | june six
+2017-06-23 | midsummer eve
+2017-12-24 | christmas eve
+2017-12-25 | christmas day
+2017-12-26 | christmas second
+2017-12-31 | new years eve
+2018-01-01 | new years day
+2018-01-06 | epiphany
+2018-03-30 | good friday
+2018-03-31 | easter saturday
+2018-04-02 | easter monday
+2018-05-01 | first may
+2018-05-10 | ascension thursday
+2018-05-20 | whitsun eve
+2018-05-21 | pentecost
+2018-06-06 | june six
+2018-06-22 | midsummer eve
+2018-12-24 | christmas eve
+2018-12-25 | christmas day
+2018-12-26 | christmas second
+2018-12-31 | new years eve
+
+
 ### Contributing
 Contribution is most welcome and wanted. I want to collaborate and learn to code python properly.
 
