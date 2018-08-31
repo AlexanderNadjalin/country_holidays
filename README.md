@@ -16,13 +16,13 @@ date_utils.py (included in this repo)
 
 ### Usage
 ```python
-`import country_holidays as ch`
-`import datetime as dti
+import country_holidays as ch
+import datetime as dt
 
 start_year = dt.datetime(2017, 1, 1)
 end_year = dt.datetime(2018, 1, 1)
 sweden = ch.Calendar('SE', start_year, end_year)
-print(sweden.holidays)`
+print(sweden.holidays)
 ```
 
 Results in a DataFrame:
